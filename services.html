@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services - Design.com</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: black;
+        color: white;
+      }
+      .service-header {
+        background-color: black;
+        color: gold;
+        padding: 2rem 0;
+        text-align: center;
+      }
+      .service-header h1 {
+        margin-bottom: 0.5rem;
+        font-size: 2.5rem;
+      }
+      .service-header p {
+        color: white;
+      }
+      .service-section {
+        padding: 2rem 0;
+      }
+      .service-box {
+        background: #1a1a1a;
+        border-radius: 8px;
+        padding: 1.5rem;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        text-align: center;
+      }
+      .service-box h4 {
+        color: gold;
+        margin-bottom: 1rem;
+      }
+      .btn-primary {
+        background-color: gold;
+        border: none;
+        color: black;
+      }
+      .btn-primary:hover {
+        background-color: #ccac00;
+      }
+      .btn-outline-light {
+        border-color: gold;
+        color: gold;
+      }
+      .btn-outline-light:hover {
+        background-color: gold;
+        color: black;
+      }
+      .sample-gallery img {
+        border-radius: 8px;
+        width: 100%;
+        height: auto;
+      }
+      .sample-gallery h5 {
+        color: gold;
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Service Header -->
+    <header class="service-header">
+      <h1>Our Services</h1>
+      <p>Professional designs tailored to your needs</p>
+    </header>
+
+    <!-- Service Section -->
+    <section class="container service-section">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box">
+            <h4>Graphic Design</h4>
+            <p>
+              From logos to branding materials, we create visually stunning
+              designs that captivate audiences.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box">
+            <h4>Web Design</h4>
+            <p>
+              Modern and responsive websites designed to provide an excellent
+              user experience.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-box">
+            <h4>UI/UX Design</h4>
+            <p>
+              Intuitive and user-friendly interfaces that enhance customer
+              engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Design Samples Section -->
+    <section class="container py-5">
+      <h2 class="text-center mb-5" style="color: gold">Our Design Samples</h2>
+      <div class="row g-4 sample-gallery">
+        <div class="col-md-4">
+          <img src="/img/S_Img2.jpg" alt="Design Sample 2" />
+          <h5 class="text-center">Website Mockup</h5>
+        </div>
+        <div class="col-md-4">
+          <img src="/img/S_Img3.png" alt="Design Sample 3" />
+          <h5 class="text-center">Mobile App UI</h5>
+        </div>
+        <div class="col-md-4">
+          <img src="/img/S_Img1.jpg" alt="Design Sample 3" />
+          <h5 class="text-center">TV App UI</h5>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="#" class="btn btn-primary">Request a Custom Design</a>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
